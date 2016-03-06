@@ -79,7 +79,7 @@ db.loadTemplates({
 
 ```js
 // See template sample above (Chapter : Create a template)
-db.queryTemplate('simple-query', {returnType: true}, {
+db.queryTemplate('simple-query', {firstname: true}, {
     params: {
       type: 'song'
     }
