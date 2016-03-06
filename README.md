@@ -14,7 +14,7 @@ New ideas are welcome !
 ## Install
 
 ```
-$ npm install òrientjs-steroids
+$ npm install orientjs-steroids
 ```
 
 ## Usage
