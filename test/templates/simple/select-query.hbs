@@ -1,0 +1,16 @@
+SELECT
+{{#if returnType}}
+    type
+{{/if}}
+{{#if returnSongType}}
+    song_type
+{{/if}}
+{{#if returnName}}
+    name
+{{/if}}
+
+FROM
+    V
+
+WHERE
+    type = :type

@@ -1,0 +1,6 @@
+BEGIN;
+
+let $t0 = select from V WHERE type = :type1;
+let $t1 = select from V WHERE type = :type2;
+
+return $t1;

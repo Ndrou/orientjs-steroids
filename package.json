@@ -1,0 +1,22 @@
+{
+  "name": "orientjs-steroids",
+  "version": "1.0.0",
+  "description": "OrientJS under steroids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ndrou",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.3",
+    "glob": "^7.0.3",
+    "handlebars": "^4.0.5"
+  },
+  "peerDependencies": {
+    "orientjs": "^2.1.11"
+  },
+  "devDependencies": {
+    "should": "^8.2.2"
+  }
+}
